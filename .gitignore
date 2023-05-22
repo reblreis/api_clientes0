@@ -1,33 +1,25 @@
-HELP.md
+# Arquivos Java compilados
+*.class
+
+# Arquivos de dependência
+/lib/
+
+# Arquivos de build do Maven
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Arquivos de build do Gradle
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
-.vscode/
+# Arquivos de configuração do Eclipse
+.classpath
+.project
+.settings/
+
+# Arquivos de log do Tomcat
+logs/
+
+# Arquivos de configuração do IntelliJ IDEA
+.idea/
+
+# Arquivos de backup do Notepad++
+*.bak
